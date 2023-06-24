@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/currocam/gh-personal/posts/hmmer-utils/index.html</loc>
-    <lastmod>2023-06-24T15:10:46.818Z</lastmod>
+    <lastmod>2023-06-24T16:50:13.061Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/currocam/gh-personal/posts/snakemake/index.html</loc>
+    <lastmod>2023-06-24T16:50:13.281Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/currocam/gh-personal/index.html</loc>
-    <lastmod>2023-06-24T15:10:47.062Z</lastmod>
+    <lastmod>2023-06-24T16:50:13.541Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/currocam/gh-personal/about.html</loc>
-    <lastmod>2023-06-24T15:10:47.246Z</lastmod>
+    <lastmod>2023-06-24T16:50:13.721Z</lastmod>
   </url>
 </urlset>

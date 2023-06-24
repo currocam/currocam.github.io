@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/snakemake/index.html",
       "/posts/hmmer-utils/index.html"
     ]
   }

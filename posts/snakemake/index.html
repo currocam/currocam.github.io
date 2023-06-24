@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Curro Campuzano Jiménez">
+<meta name="dcterms.date" content="2023-06-25">
 
-<title>Hi, I am Curro Campuzano</title>
+<title>Hi, I am Curro Campuzano - Snakemake pipelines</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,50 +61,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Hi, I am Curro Campuzano</span>
     </a>
   </div>
@@ -115,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -138,97 +107,58 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Hi, I am Curro Campuzano</h1>
+    <div class="quarto-title column-body">
+      <h1 class="title">Snakemake pipelines</h1>
                       </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Curro Campuzano Jiménez </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 25, 2023</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
+<p>Workflow management tools like&nbsp;&nbsp;<a href="https://snakemake.readthedocs.io/en/stable/">Snakemake</a>&nbsp;or&nbsp;<a href="https://www.nextflow.io/">Nextflow</a>&nbsp;have proven incredibly valuable in large-scale bioinformatics analysis. While I don’t have a particular preference, I have had extensive experience with Snakemake as a Student Assistant at the&nbsp;<a href="https://envs.au.dk/en/">Environmental Sciences Department of Aarhus University</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="snakemake.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>Snakemake files are just Python files extended with a declarative sugar syntax like MakeFiles. Unlike traditional Makefiles, it is designed explicitly for scientific workflows.&nbsp;</p>
+<p>In my role, I have focused on automating pipelines for the High-Throughput Sequencing Center of Aarhus University (Roskilde). This has allowed me to delve into working with HPC clusters, employing Singularity containers, and gaining in-depth knowledge of the bioinformatics pipelines.</p>
+<p>To date, I have developed in <a href="https://github.com/AU-ENVS-Bioinformatics/IlluminaSnakemake">Snakemake a Whole-Genome Sequencing (WGS) pipeline</a> for prokaryotes, a <a href="https://github.com/AU-ENVS-Bioinformatics/TotalRNA-Snakemake">TotalRNA metatranscriptomics pipeline</a>, and one pipeline for <a href="https://github.com/AU-ENVS-Bioinformatics/emu-smk">long-amplicon sequencing</a> for Oxford Nanopore. My colleagues are using the pipelines, and I look forward to publishing one of the manuscripts that have used it.&nbsp;</p>
+<p>Using <a href="https://snakemake-wrappers.readthedocs.io/en/stable/">Snakemake wrappers</a>, small reusable scripts that facilitate using popular bioinformatics programs, has made my life much easier. When I had the time and saw the opportunity, I contributed with PRs to the snakemake-wrappers repository, improving or adding new features :)</p>
+<p>I have made all of my code publicly available on GitHub. I am very grateful to be in a work environment encouraging Free software. I always continue to be impressed by the open contributions of the scientific community to bioinformatics.&nbsp;&nbsp;</p>
+<p>If you are more interested, I invite you to look at the organization’s repository (<a href="https://github.com/AU-ENVS-Bioinformatics/" class="uri">https://github.com/AU-ENVS-Bioinformatics/</a>).</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1687644000000" data-listing-file-modified-sort="1687625241604" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/snakemake/index.html"> <p class="card-img-top"><img src="posts/snakemake/snakemake.png"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./posts/snakemake/index.html">
-<h3 class="no-anchor listing-title">
-Snakemake pipelines
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-Workflow management tools like&nbsp;&nbsp;Snakemake&nbsp;or&nbsp;Nextflow&nbsp;have proven incredibly valuable in large-scale bioinformatics…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/snakemake/index.html">
-<div class="listing-date">
-Jun 25, 2023
-</div>
-<div class="listing-author">
-Curro Campuzano Jiménez
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1687557600000" data-listing-file-modified-sort="1687625060986" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/hmmer-utils/index.html"> <img src="./posts/hmmer-utils/HMMERutils_logo.svg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/hmmer-utils/index.html">
-<h3 class="no-anchor listing-title">
-An R library to work with HMMER
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-HMMERutils is a project I did as part of my internship at the Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI)…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/hmmer-utils/index.html">
-<div class="listing-date">
-Jun 24, 2023
-</div>
-<div class="listing-author">
-Curro Campuzano Jiménez
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
