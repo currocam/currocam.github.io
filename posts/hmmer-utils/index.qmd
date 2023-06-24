@@ -11,7 +11,7 @@ image: "HMMERutils_logo.svg"
 
 As part of my bachelor thesis, I used [HMMER](http://hmmer.org/) to find homologous proteins to Fascin (a protein of clinical interest). Although the main idea was to use the [Statistical Coupling Analysis](https://ranganathanlab.gitlab.io/pySCA/) method, I spent most of the time obtaining a curated homologous protein dataset. As a result, we devised **HMMERutils**: An R library for homologous sequences using the HMMER API, taxonomical annotation, calculate physicochemical properties, and facilitate exploratory analysis of homologous sequence data
 
-I haven't found the time to upload it to [BioConductor](https://www.bioconductor.org/) yet (and at this rate, I never will). Still, it was a super enriching experience to learn the guts of an R package, testing, and contiguous integration with GitHub Actions. David XXX's book on R Packages was the resource I used the most, and I can't recommend it enough. https://r-pkgs.org/
+I haven't found the time to upload it to [BioConductor](https://www.bioconductor.org/) yet (and at this rate, I never will). Still, it was a super enriching experience to learn the guts of an R package, testing, and contiguous integration with GitHub Actions.
 
 In this regard, the book [*R Packages*](https://r-pkgs.org/) by [Hadley Wickham](https://hadley.nz/) and [Jennifer Bryan](https://jennybryan.org/) was the resource I used the most (and it is free). I can't recommend it highly enough.
 
