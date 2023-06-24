@@ -1,5 +1,5 @@
 ---
-title: "Curro Campuzano - Bioinformatics"
+title: "Hi, I am Curro Campuzano"
 listing:
   contents: posts
   sort: "date desc"

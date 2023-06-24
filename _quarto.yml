@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Curro Campuzano - Bioinformatics"
+  title: "Hi, I am Curro Campuzano"
   navbar:
     right:
       - about.qmd

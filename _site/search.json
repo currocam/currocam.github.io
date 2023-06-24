@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/hmmer-utils/index.html",
+    "href": "posts/hmmer-utils/index.html",
+    "title": "An R library to work with HMMER",
     "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "HMMERutils is a project I did as part of my internship at the Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI) during 2021-2022, supervised by Coral del Val.\n\n\n\nHMMERutils tidyverse-like logo\n\n\nAs part of my bachelor thesis, I used HMMER to find homologous proteins to Fascin (a protein of clinical interest). Although the main idea was to use the Statistical Coupling Analysis method, I spent most of the time obtaining a curated homologous protein dataset. As a result, we devised HMMERutils: An R library for homologous sequences using the HMMER API, taxonomical annotation, calculate physicochemical properties, and facilitate exploratory analysis of homologous sequence data\nI haven’t found the time to upload it to BioConductor yet (and at this rate, I never will). Still, it was a super enriching experience to learn the guts of an R package, testing, and contiguous integration with GitHub Actions. David XXX’s book on R Packages was the resource I used the most, and I can’t recommend it enough. https://r-pkgs.org/\nIn this regard, the book R Packages by Hadley Wickham and Jennifer Bryan was the resource I used the most (and it is free). I can’t recommend it highly enough.\n\n\n\nR Packages book cover\n\n\nIf you are interested in the library you can of course visit the vignette: HMMERutils in a nutshell."
   },
   {
     "objectID": "index.html",
@@ -26,12 +19,5 @@
     "title": "About",
     "section": "",
     "text": "Hi! I’m Curro Campuzano, and this is a Quarto Blog I’ve made as a small portfolio to share bioinformatics projects in which I am involved. I’m a Msc. Student in Bioinformatics at Aarhus University, and I’m an Open-Source enthusiast."
-  },
-  {
-    "objectID": "posts/hmmer-utils/index.html",
-    "href": "posts/hmmer-utils/index.html",
-    "title": "An R library to work with HMMER",
-    "section": "",
-    "text": "HMMERutils is a project I did as part of my internship at the Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI) during 2021-2022, supervised by Coral del Val.\n\n\n\nHMMERutils tidyverse-like logo\n\n\nAs part of my bachelor thesis, I used HMMER to find homologous proteins to Fascin (a protein of clinical interest). Although the main idea was to use the Statistical Coupling Analysis method, I spent most of the time obtaining a curated homologous protein dataset. As a result, we devised HMMERutils: An R library for homologous sequences using the HMMER API, taxonomical annotation, calculate physicochemical properties, and facilitate exploratory analysis of homologous sequence data\nI haven’t found the time to upload it to BioConductor yet (and at this rate, I never will). Still, it was a super enriching experience to learn the guts of an R package, testing, and contiguous integration with GitHub Actions. David XXX’s book on R Packages was the resource I used the most, and I can’t recommend it enough. https://r-pkgs.org/\nIn this regard, the book R Packages by Hadley Wickham and Jennifer Bryan was the resource I used the most (and it is free). I can’t recommend it highly enough.\n\n\n\nR Packages book cover\n\n\nIf you are interested in the library you can of course visit the vignette: HMMERutils in a nutshell."
   }
 ]
