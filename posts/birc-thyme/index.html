@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Curro Campuzano Jiménez">
-<meta name="dcterms.date" content="2023-06-25">
+<meta name="dcterms.date" content="2023-06-26">
 
-<title>Curro Campuzano - Snakemake pipelines</title>
+<title>Curro Campuzano - A Chromosome-level assembly of Thymus vulgaris</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Snakemake pipelines</h1>
+      <h1 class="title">A Chromosome-level assembly of <em>Thymus vulgaris</em></h1>
                       </div>
   </div>
     
@@ -125,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">June 25, 2023</p>
+        <p class="date">June 26, 2023</p>
       </div>
     </div>
     
@@ -143,18 +143,17 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Workflow management tools like&nbsp;&nbsp;<a href="https://snakemake.readthedocs.io/en/stable/">Snakemake</a>&nbsp;or&nbsp;<a href="https://www.nextflow.io/">Nextflow</a>&nbsp;have proven incredibly valuable in large-scale bioinformatics analysis. While I don’t have a particular preference, I have had extensive experience with Snakemake as a Student Assistant at the&nbsp;<a href="https://envs.au.dk/en/">Environmental Sciences Department of Aarhus University</a>.</p>
+<p>This semester, I worked with my supervisor <a href="https://orcid.org/0000-0002-4730-2538">Thomas Bataillon</a> as part of my Master’s program at <a href="https://birc.au.dk/">BiRC</a> on a Bioinformatics project. Our goal was to use <strong>Pacbio HiFi reads to obtain a chromosome-level assembly of Mediterranean thyme</strong>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="snakemake.png" class="img-fluid figure-img"></p>
+<p><img src="t_vulgaris.jpg" class="img-fluid figure-img" style="width:40.0%"></p>
+<figcaption class="figure-caption">Mediterranean thyme (<em>T. vulgaris</em>) Obtained from <a href="http://herbarivirtual.uib.es/">Herbari virtual del Mediterrani Occidental</a></figcaption>
 </figure>
 </div>
-<p>Snakemake files are just Python files extended with a declarative sugar syntax like MakeFiles. Unlike traditional Makefiles, it is designed explicitly for scientific workflows.&nbsp;</p>
-<p>In my role, I have focused on automating pipelines for the High-Throughput Sequencing Center of Aarhus University (Roskilde). This has allowed me to delve into working with HPC clusters, employing Singularity containers, and gaining in-depth knowledge of the bioinformatics pipelines.</p>
-<p>To date, I have developed in <a href="https://github.com/AU-ENVS-Bioinformatics/IlluminaSnakemake">Snakemake a Whole-Genome Sequencing (WGS) pipeline</a> for prokaryotes, a <a href="https://github.com/AU-ENVS-Bioinformatics/TotalRNA-Snakemake">TotalRNA metatranscriptomics pipeline</a>, and one pipeline for <a href="https://github.com/AU-ENVS-Bioinformatics/emu-smk">long-amplicon sequencing</a> for Oxford Nanopore. My colleagues are using the pipelines, and I look forward to publishing one of the manuscripts that have used it.&nbsp;</p>
-<p>Using <a href="https://snakemake-wrappers.readthedocs.io/en/stable/">Snakemake wrappers</a>, small reusable scripts that facilitate using popular bioinformatics programs, has made my life much easier. When I had the time and saw the opportunity, I contributed with PRs to the snakemake-wrappers repository, improving or adding new features :)</p>
-<p>I have made all of my code publicly available on GitHub. I am very grateful to be in a work environment encouraging Free software. I always continue to be impressed by the open contributions of the scientific community to bioinformatics.&nbsp;&nbsp;</p>
-<p>If you are more interested, I invite you to look at the organization’s repository (<a href="https://github.com/AU-ENVS-Bioinformatics/" class="uri">https://github.com/AU-ENVS-Bioinformatics/</a>).</p>
+<p>The primary objective was to use the genome of a closely related species to improve the contiguity of the highly fragmented&nbsp;<em>de novo</em>&nbsp;assembly. Although further research is required, we achieved promising results. For example, we increased the N50 from 1.87 Mb (n=133) at the contig level to 48.92 Mb (n=8) at the scaffold level.&nbsp;An outline of the pipeline can be found <a href="https://currocam.github.io/BiRC-Thyme/#/section">here</a>.</p>
+<p>Working with plant genomes has been challenging, and I have learned a lot about genome assembly with long reads and plant genomes. Additionally, this project was part of a broader investigation into the genetic and ecological diversity of Mediterranean thyme, a subject that I found fascinating.</p>
+<p>I utilized the <a href="https://genome.au.dk/">GenomeDK</a> cluster at the center for the data analysis pipeline, employing various programs and programming languages, including R, Python, Julia, and Bash.</p>
+<p>All the code and the slides I used for the project defense are publicly available on GitHub, which you can access at <a href="https://currocam.github.io/BiRC-Thyme" class="uri">https://currocam.github.io/BiRC-Thyme</a>/</p>
 
 
 
