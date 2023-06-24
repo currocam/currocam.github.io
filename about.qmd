@@ -1,19 +1,18 @@
 ---
 title: "About"
-image: profile.jpg
+image: images/profile.jpeg
 about:
   template: jolla
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/currocam
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://linkedin.com/in/currocam
     - icon: github
       text: Github
-      href: https://github.com
-
+      href: https://github.com/currocam
 ---
 
-About this blog
+Hi! I'm Curro Campuzano, and this is a [Quarto Blog](https://quarto.org/docs/websites/website-blog.html) I've made as a small portfolio to share bioinformatics projects in which I am involved. I'm a Msc. Student in Bioinformatics at Aarhus University, and I'm an Open-Source enthusiast.

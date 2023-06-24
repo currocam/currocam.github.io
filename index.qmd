@@ -1,14 +1,13 @@
 ---
-title: "gh-currocam"
+title: "Curro Campuzano - Bioinformatics"
 listing:
   contents: posts
   sort: "date desc"
   type: default
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
 page-layout: full
 title-block-banner: true
 ---
-
 

@@ -16,15 +16,22 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "gh-currocam",
+    "title": "Curro Campuzano - Bioinformatics",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJun 21, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "An R library to work with HMMER\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2023\n\n\nCurro Campuzano Jiménez\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "Hi! I’m Curro Campuzano, and this is a Quarto Blog I’ve made as a small portfolio to share bioinformatics projects in which I am involved. I’m a Msc. Student in Bioinformatics at Aarhus University, and I’m an Open-Source enthusiast."
+  },
+  {
+    "objectID": "posts/hmmer-utils/index.html",
+    "href": "posts/hmmer-utils/index.html",
+    "title": "An R library to work with HMMER",
+    "section": "",
+    "text": "HMMERutils is a project I did as part of my internship at the Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI) during 2021-2022, supervised by Coral del Val.\n\n\n\nHMMERutils tidyverse-like logo\n\n\nAs part of my bachelor thesis, I used HMMER to find homologous proteins to Fascin (a protein of clinical interest). Although the main idea was to use the Statistical Coupling Analysis method, I spent most of the time obtaining a curated homologous protein dataset. As a result, we devised HMMERutils: An R library for homologous sequences using the HMMER API, taxonomical annotation, calculate physicochemical properties, and facilitate exploratory analysis of homologous sequence data\nI haven’t found the time to upload it to BioConductor yet (and at this rate, I never will). Still, it was a super enriching experience to learn the guts of an R package, testing, and contiguous integration with GitHub Actions. David XXX’s book on R Packages was the resource I used the most, and I can’t recommend it enough. https://r-pkgs.org/\nIn this regard, the book R Packages by Hadley Wickham and Jennifer Bryan was the resource I used the most (and it is free). I can’t recommend it highly enough.\n\n\n\nR Packages book cover\n\n\nIf you are interested in the library you can of course visit the vignette: HMMERutils in a nutshell."
   }
 ]
