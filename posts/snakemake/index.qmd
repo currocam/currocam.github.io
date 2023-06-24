@@ -1,7 +1,8 @@
 ---
-title: "Snakemake pipelines"
+title: "Snakemake pipelines in the  High-Throughput Sequencing Center of AU-ENVS"
 author: "Curro Campuzano Jiménez"
 date: "2023-06-25"
+image: "logo.svg"
 ---
 
 Workflow management tools like  [Snakemake](https://snakemake.readthedocs.io/en/stable/) or [Nextflow](https://www.nextflow.io/) have proven incredibly valuable in large-scale bioinformatics analysis. While I don't have a particular preference, I have had extensive experience with Snakemake as a Student Assistant at the [Environmental Sciences Department of Aarhus University](https://envs.au.dk/en/).
