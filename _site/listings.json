@@ -3,6 +3,7 @@
     "listing": "/index.html",
     "items": [
       "/posts/birc-thyme/index.html",
+      "/posts/ngs/index.html",
       "/posts/snakemake/index.html",
       "/posts/hmmer-utils/index.html"
     ]

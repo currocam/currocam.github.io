@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "Hi, I am Curro Campuzano",
     "section": "",
-    "text": "A Chromosome-level assembly of Thymus vulgaris\n\n\n\n\n\n\n\n\n\n\n\n\nJun 26, 2023\n\n\nCurro Campuzano Jiménez\n\n\n\n\n\n\n  \n\n\n\n\nSnakemake pipelines in the High-Throughput Sequencing Center of AU-ENVS\n\n\n\n\n\n\n\n\n\n\n\n\nJun 25, 2023\n\n\nCurro Campuzano Jiménez\n\n\n\n\n\n\n  \n\n\n\n\nAn R library to work with HMMER\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2023\n\n\nCurro Campuzano Jiménez\n\n\n\n\n\n\nNo matching items"
+    "text": "A Chromosome-level assembly of Thymus vulgaris\n\n\n\n\n\n\n\n\n\n\n\n\nJun 26, 2023\n\n\nCurro Campuzano Jiménez\n\n\n\n\n\n\n  \n\n\n\n\nWhole Genome Sequencing Poster\n\n\n\n\n\n\n\n\n\n\n\n\nJun 25, 2023\n\n\nCurro Campuzano Jiménez\n\n\n\n\n\n\n  \n\n\n\n\nSnakemake pipelines in the High-Throughput Sequencing Center of AU-ENVS\n\n\n\n\n\n\n\n\n\n\n\n\nJun 25, 2023\n\n\nCurro Campuzano Jiménez\n\n\n\n\n\n\n  \n\n\n\n\nAn R library to work with HMMER\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2023\n\n\nCurro Campuzano Jiménez\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/hmmer-utils/index.html",
@@ -33,5 +33,12 @@
     "title": "An R library to work with HMMER",
     "section": "",
     "text": "HMMERutils is a project I did as part of my internship at the Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI) during 2021-2022, supervised by Coral del Val.\n\n\n\nHMMERutils tidyverse-like logo\n\n\nAs part of my bachelor thesis, I used HMMER to find homologous proteins to Fascin (a protein of clinical interest). Although the main idea was to use the Statistical Coupling Analysis method, I spent most of the time obtaining a curated homologous protein dataset. As a result, we devised HMMERutils: An R library for homologous sequences using the HMMER API, taxonomical annotation, calculate physicochemical properties, and facilitate exploratory analysis of homologous sequence data\nI haven’t found the time to upload it to BioConductor yet (and at this rate, I never will). Still, it was a super enriching experience to learn the guts of an R package, testing, and contiguous integration with GitHub Actions.\nIn this regard, the book R Packages by Hadley Wickham and Jennifer Bryan was the resource I used the most (and it is free). I can’t recommend it highly enough.\n\n\n\nR Packages book cover\n\n\nIf you are interested in the library you can of course visit the vignette: HMMERutils in a nutshell."
+  },
+  {
+    "objectID": "posts/ngs/index.html",
+    "href": "posts/ngs/index.html",
+    "title": "Whole Genome Sequencing Poster",
+    "section": "",
+    "text": "Last summer, I took the PhD course Next Generation Sequencing Data Analysis at the Bioinformatics Research Centre, Aarhus University. We had a super exciting poster session as part of the course, and I just wanted to share mine here!\nI created a poster on a Whole-Genome sequencing + genome mining pipeline for isolates from environmental samples using Illumina."
   }
 ]
