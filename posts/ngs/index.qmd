@@ -3,7 +3,6 @@ title: "Whole Genome Sequencing Poster"
 author: "Curro Campuzano Jiménez"
 date: "2023-10-18"
 image: "poster.svg"
-bibliography: references.bib
 ---
 
 Last summer, I took the PhD course *Next Generation Sequencing Data Analysis* at the Bioinformatics Research Centre, Aarhus University. We had a super exciting poster session as part of the course, and I just wanted to share mine here!
