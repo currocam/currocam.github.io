@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "posts/hmmer-utils/index.html",
-    "href": "posts/hmmer-utils/index.html",
-    "title": "An R library to work with HMMER",
+    "objectID": "posts/snakemake/index.html",
+    "href": "posts/snakemake/index.html",
+    "title": "Snakemake pipelines in the High-Throughput Sequencing Center of AU-ENVS",
     "section": "",
-    "text": "HMMERutils is a project I did as part of my internship at the Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI) during 2021-2022, supervised by Coral del Val.\n\n\n\nHMMERutils tidyverse-like logo\n\n\nAs part of my bachelor thesis, I used HMMER to find homologous proteins to Fascin (a protein of clinical interest). Although the main idea was to use the Statistical Coupling Analysis method, I spent most of the time obtaining a curated homologous protein dataset. As a result, we devised HMMERutils: An R library for homologous sequences using the HMMER API, taxonomical annotation, calculate physicochemical properties, and facilitate exploratory analysis of homologous sequence data\nI haven’t found the time to upload it to BioConductor yet (and at this rate, I never will). Still, it was a super enriching experience to learn the guts of an R package, testing, and contiguous integration with GitHub Actions. David XXX’s book on R Packages was the resource I used the most, and I can’t recommend it enough. https://r-pkgs.org/\nIn this regard, the book R Packages by Hadley Wickham and Jennifer Bryan was the resource I used the most (and it is free). I can’t recommend it highly enough.\n\n\n\nR Packages book cover\n\n\nIf you are interested in the library you can of course visit the vignette: HMMERutils in a nutshell."
+    "text": "Workflow management tools like  Snakemake or Nextflow have proven incredibly valuable in large-scale bioinformatics analysis. While I don’t have a particular preference, I have had extensive experience with Snakemake as a Student Assistant at the Environmental Sciences Department of Aarhus University.\n\n\n\n\n\nSnakemake files are just Python files extended with a declarative sugar syntax like MakeFiles. Unlike traditional Makefiles, it is designed explicitly for scientific workflows. \nIn my role, I have focused on automating pipelines for the High-Throughput Sequencing Center of Aarhus University (Roskilde). This has allowed me to delve into working with HPC clusters, employing Singularity containers, and gaining in-depth knowledge of the bioinformatics pipelines.\nTo date, I have developed in Snakemake a Whole-Genome Sequencing (WGS) pipeline for prokaryotes, a TotalRNA metatranscriptomics pipeline, and one pipeline for long-amplicon sequencing for Oxford Nanopore. Please check the recently published papers of Jaarsma et al. (2023) and Scheel et al. (2023) to see papers that used them.\nUsing Snakemake wrappers, small reusable scripts that facilitate using popular bioinformatics programs, has made my life much easier. When I had the time and saw the opportunity, I contributed with PRs to the snakemake-wrappers repository, improving or adding new features :)\nI have made all of my code publicly available on GitHub. I am very grateful to be in a work environment encouraging Free software. I always continue to be impressed by the open contributions of the scientific community to bioinformatics.\nIf you are more interested, I invite you to look at the organization’s repository (https://github.com/AU-ENVS-Bioinformatics/).\n\n\n\n\nReferences\n\nJaarsma, Ate H, Katie Sipes, Athanasios Zervas, Francisco Campuzano Jiménez, Lea Ellegaard-Jensen, Mariane S Thøgersen, Peter Stougaard, Liane G Benning, Martyn Tranter, and Alexandre M Anesio. 2023. “Exploring Microbial Diversity in Greenland Ice Sheet Supraglacial Habitats Through Culturing-Dependent and -Independent Approaches.” FEMS Microbiology Ecology 99 (11). https://doi.org/10.1093/femsec/fiad119.\n\n\nScheel, Maria, Athanasios Zervas, Ruud Rijkers, Alexander Tøsdal Tveit, Flemming Ekelund, Francisco Campuzano Jiménez, Torben Røjle Christensen, and Carsten Suhr Jacobsen. 2023. “Abrupt Permafrost Thaw Triggers Activity of Copiotrophs and Microbiome Predators.” FEMS Microbiology Ecology, October. https://doi.org/10.1093/femsec/fiad123."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Curro Campuzano - Bioinformatics",
+    "objectID": "posts/birc-thyme/index.html",
+    "href": "posts/birc-thyme/index.html",
+    "title": "A Chromosome-level assembly of Thymus vulgaris",
     "section": "",
-    "text": "An R library to work with HMMER\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2023\n\n\nCurro Campuzano Jiménez\n\n\n\n\n\n\nNo matching items"
+    "text": "This semester, I worked with my supervisor Thomas Bataillon as part of my Master’s program at BiRC on a Bioinformatics project. Our goal was to use Pacbio HiFi reads to obtain a chromosome-level assembly of Mediterranean thyme.\n\n\n\nMediterranean thyme (T. vulgaris) Obtained from Herbari virtual del Mediterrani Occidental\n\n\nThe primary objective was to use the genome of a closely related species to improve the contiguity of the highly fragmented de novo assembly. Although further research is required, we achieved promising results. For example, we increased the N50 from 1.87 Mb (n=133) at the contig level to 48.92 Mb (n=8) at the scaffold level. An outline of the pipeline can be found here.\nWorking with plant genomes has been challenging, and I have learned a lot about genome assembly with long reads and plant genomes. Additionally, this project was part of a broader investigation into the genetic and ecological diversity of Mediterranean thyme, a subject that I found fascinating.\nI utilized the GenomeDK cluster at the center for the data analysis pipeline, employing various programs and programming languages, including R, Python, Julia, and Bash.\nAll the code and the slides I used for the project defense are publicly available on GitHub, which you can access at https://currocam.github.io/BiRC-Thyme/"
   },
   {
     "objectID": "about.html",
@@ -19,5 +19,19 @@
     "title": "About",
     "section": "",
     "text": "Hi! I’m Curro Campuzano, and this is a Quarto Blog I’ve made as a small portfolio to share bioinformatics projects in which I am involved. I’m a Msc. Student in Bioinformatics at Aarhus University, and I’m an Open-Source enthusiast."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I am Curro Campuzano",
+    "section": "",
+    "text": "A Chromosome-level assembly of Thymus vulgaris\n\n\n\n\n\n\n\n\n\n\n\n\nJun 26, 2023\n\n\nCurro Campuzano Jiménez\n\n\n\n\n\n\n  \n\n\n\n\nSnakemake pipelines in the High-Throughput Sequencing Center of AU-ENVS\n\n\n\n\n\n\n\n\n\n\n\n\nJun 25, 2023\n\n\nCurro Campuzano Jiménez\n\n\n\n\n\n\n  \n\n\n\n\nAn R library to work with HMMER\n\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2023\n\n\nCurro Campuzano Jiménez\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/hmmer-utils/index.html",
+    "href": "posts/hmmer-utils/index.html",
+    "title": "An R library to work with HMMER",
+    "section": "",
+    "text": "HMMERutils is a project I did as part of my internship at the Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI) during 2021-2022, supervised by Coral del Val.\n\n\n\nHMMERutils tidyverse-like logo\n\n\nAs part of my bachelor thesis, I used HMMER to find homologous proteins to Fascin (a protein of clinical interest). Although the main idea was to use the Statistical Coupling Analysis method, I spent most of the time obtaining a curated homologous protein dataset. As a result, we devised HMMERutils: An R library for homologous sequences using the HMMER API, taxonomical annotation, calculate physicochemical properties, and facilitate exploratory analysis of homologous sequence data\nI haven’t found the time to upload it to BioConductor yet (and at this rate, I never will). Still, it was a super enriching experience to learn the guts of an R package, testing, and contiguous integration with GitHub Actions.\nIn this regard, the book R Packages by Hadley Wickham and Jennifer Bryan was the resource I used the most (and it is free). I can’t recommend it highly enough.\n\n\n\nR Packages book cover\n\n\nIf you are interested in the library you can of course visit the vignette: HMMERutils in a nutshell."
   }
 ]
