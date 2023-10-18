@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -22,7 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -129,6 +148,12 @@ ul.task-list li input[type="checkbox"] {
       </div>
     </div>
     
+      <div>
+      <div class="quarto-title-meta-heading">Modified</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">October 18, 2023</p>
+      </div>
+    </div>
       
     </div>
     
@@ -151,14 +176,22 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>Snakemake files are just Python files extended with a declarative sugar syntax like MakeFiles. Unlike traditional Makefiles, it is designed explicitly for scientific workflows.&nbsp;</p>
 <p>In my role, I have focused on automating pipelines for the High-Throughput Sequencing Center of Aarhus University (Roskilde). This has allowed me to delve into working with HPC clusters, employing Singularity containers, and gaining in-depth knowledge of the bioinformatics pipelines.</p>
-<p>To date, I have developed in <a href="https://github.com/AU-ENVS-Bioinformatics/IlluminaSnakemake">Snakemake a Whole-Genome Sequencing (WGS) pipeline</a> for prokaryotes, a <a href="https://github.com/AU-ENVS-Bioinformatics/TotalRNA-Snakemake">TotalRNA metatranscriptomics pipeline</a>, and one pipeline for <a href="https://github.com/AU-ENVS-Bioinformatics/emu-smk">long-amplicon sequencing</a> for Oxford Nanopore. My colleagues are using the pipelines, and I look forward to publishing one of the manuscripts that have used it.&nbsp;</p>
+<p>To date, I have developed in <a href="https://github.com/AU-ENVS-Bioinformatics/IlluminaSnakemake">Snakemake a Whole-Genome Sequencing (WGS) pipeline</a> for prokaryotes, a <a href="https://github.com/AU-ENVS-Bioinformatics/TotalRNA-Snakemake">TotalRNA metatranscriptomics pipeline</a>, and one pipeline for <a href="https://github.com/AU-ENVS-Bioinformatics/emu-smk">long-amplicon sequencing</a> for Oxford Nanopore. Please check the recently published papers of <span class="citation" data-cites="jaarsma2023">Jaarsma et al. (<a href="#ref-jaarsma2023" role="doc-biblioref">2023</a>)</span> and <span class="citation" data-cites="scheel2023">Scheel et al. (<a href="#ref-scheel2023" role="doc-biblioref">2023</a>)</span> to see papers that used them.</p>
 <p>Using <a href="https://snakemake-wrappers.readthedocs.io/en/stable/">Snakemake wrappers</a>, small reusable scripts that facilitate using popular bioinformatics programs, has made my life much easier. When I had the time and saw the opportunity, I contributed with PRs to the snakemake-wrappers repository, improving or adding new features :)</p>
-<p>I have made all of my code publicly available on GitHub. I am very grateful to be in a work environment encouraging Free software. I always continue to be impressed by the open contributions of the scientific community to bioinformatics.&nbsp;&nbsp;</p>
+<p>I have made all of my code publicly available on GitHub. I am very grateful to be in a work environment encouraging Free software. I always continue to be impressed by the open contributions of the scientific community to bioinformatics.</p>
 <p>If you are more interested, I invite you to look at the organization’s repository (<a href="https://github.com/AU-ENVS-Bioinformatics/" class="uri">https://github.com/AU-ENVS-Bioinformatics/</a>).</p>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-jaarsma2023" class="csl-entry" role="listitem">
+Jaarsma, Ate H, Katie Sipes, Athanasios Zervas, Francisco Campuzano Jiménez, Lea Ellegaard-Jensen, Mariane S Thøgersen, Peter Stougaard, Liane G Benning, Martyn Tranter, and Alexandre M Anesio. 2023. <span>“Exploring Microbial Diversity in Greenland Ice Sheet Supraglacial Habitats Through Culturing-Dependent and -Independent Approaches.”</span> <em>FEMS Microbiology Ecology</em> 99 (11). <a href="https://doi.org/10.1093/femsec/fiad119">https://doi.org/10.1093/femsec/fiad119</a>.
+</div>
+<div id="ref-scheel2023" class="csl-entry" role="listitem">
+Scheel, Maria, Athanasios Zervas, Ruud Rijkers, Alexander Tøsdal Tveit, Flemming Ekelund, Francisco Campuzano Jiménez, Torben Røjle Christensen, and Carsten Suhr Jacobsen. 2023. <span>“Abrupt Permafrost Thaw Triggers Activity of Copiotrophs and Microbiome Predators.”</span> <em>FEMS Microbiology Ecology</em>, October. <a href="https://doi.org/10.1093/femsec/fiad123">https://doi.org/10.1093/femsec/fiad123</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

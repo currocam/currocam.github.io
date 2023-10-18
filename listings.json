@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/ngs/index.html",
       "/posts/birc-thyme/index.html",
       "/posts/snakemake/index.html",
       "/posts/hmmer-utils/index.html"

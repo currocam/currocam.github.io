@@ -1,1 +1,1 @@
-Sitemap: https://github.com/currocam/gh-personal/sitemap.xml
+Sitemap: https://currocam.github.io/sitemap.xml
