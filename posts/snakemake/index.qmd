@@ -1,6 +1,5 @@
 ---
 title: "Snakemake pipelines in the  High-Throughput Sequencing Center of AU-ENVS"
-author: "Curro Campuzano Jiménez"
 date: "2023-06-25"
 date-modified: "2023-10-18"
 image: "logo.svg"

@@ -1,6 +1,5 @@
 ---
 title: "An R library to work with HMMER"
-author: "Curro Campuzano Jiménez"
 date: "2023-06-24"
 image: "HMMERutils_logo.svg"
 ---
