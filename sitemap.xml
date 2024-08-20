@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://currocam.github.io/posts/birc-nj/index.html</loc>
+    <lastmod>2024-08-20T11:13:43.903Z</lastmod>
+  </url>
+  <url>
     <loc>https://currocam.github.io/posts/snakemake/index.html</loc>
-    <lastmod>2023-10-18T08:07:45.884Z</lastmod>
-  </url>
-  <url>
-    <loc>https://currocam.github.io/posts/birc-thyme/index.html</loc>
-    <lastmod>2023-10-18T08:07:45.284Z</lastmod>
-  </url>
-  <url>
-    <loc>https://currocam.github.io/index.html</loc>
-    <lastmod>2023-10-18T08:07:44.728Z</lastmod>
-  </url>
-  <url>
-    <loc>https://currocam.github.io/about.html</loc>
-    <lastmod>2023-10-18T08:07:44.248Z</lastmod>
-  </url>
-  <url>
-    <loc>https://currocam.github.io/posts/ngs/index.html</loc>
-    <lastmod>2023-10-18T08:07:44.996Z</lastmod>
+    <lastmod>2024-08-20T11:14:20.179Z</lastmod>
   </url>
   <url>
     <loc>https://currocam.github.io/posts/hmmer-utils/index.html</loc>
-    <lastmod>2023-10-18T08:07:45.564Z</lastmod>
+    <lastmod>2024-08-20T11:14:01.637Z</lastmod>
+  </url>
+  <url>
+    <loc>https://currocam.github.io/index.html</loc>
+    <lastmod>2024-08-20T11:17:03.022Z</lastmod>
+  </url>
+  <url>
+    <loc>https://currocam.github.io/posts/birc-thyme/index.html</loc>
+    <lastmod>2024-08-20T09:54:32.424Z</lastmod>
+  </url>
+  <url>
+    <loc>https://currocam.github.io/posts/ngs/index.html</loc>
+    <lastmod>2024-08-20T11:14:10.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://currocam.github.io/posts/birc-ggm/index.html</loc>
+    <lastmod>2024-08-20T11:13:51.196Z</lastmod>
   </url>
 </urlset>
