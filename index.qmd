@@ -11,11 +11,9 @@ page-layout: article
 title-block-banner: true
 ---
 
-Hi! I'm Curro Campuzano Jiménez, and this is a [Quarto Blog](https://quarto.org/docs/websites/website-blog.html) I've made to share my journey in academia:=)
-
 # About me
 
-I'm currently a PhD student at [Svardal Lab](https://svardallab.wordpress.com/). Previously, I worked in the [Department of Environmental Science](https://github.com/AU-ENVS-Bioinformatics), where I developed reproducible and automatic pipelines to process meta-transcriptomics data. I completed my master's in bioinformatics at [BiRC](https://birc.au.dk/), where I focused my thesis on the genomic offset framework and the ecological genetics of thyme. I am also an open-source enthusiast: I like to contribute to the software I use.
+Hi! I'm Curro Campuzano Jiménez. I'm currently a PhD student at [Svardal Lab](https://svardallab.wordpress.com/). Previously, I worked in the [Department of Environmental Science](https://github.com/AU-ENVS-Bioinformatics), where I developed reproducible and automatic pipelines to process meta-transcriptomics data. I completed my master's in bioinformatics at [BiRC](https://birc.au.dk/), where I focused my thesis on the genomic offset framework and the ecological genetics of thyme. I am also an open-source enthusiast: I like to contribute to the software I use.
 
 # Projects
 
