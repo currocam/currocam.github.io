@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Curro Campuzano Jiménez",
+    "section": "",
+    "text": "About me\nHi! I’m Curro Campuzano Jiménez. I’m currently a PhD student at Svardal Lab. Previously, I worked in the Department of Environmental Science, where I developed reproducible and automatic pipelines to process meta-transcriptomics data. I completed my master’s in bioinformatics at BiRC, where I focused my thesis on the genomic offset framework and the ecological genetics of thyme. I am also an open-source enthusiast: I like to contribute to the software I use.\n\n\nProjects\nIf you are interested, you can learn more about my projects here.\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAssessing reliability of learning Gaussian graphical models from microbial abundances\n\n\n\n\n\n\n\n\n\n\n\nJan 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nNeighbor-joining in Rust\n\n\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nWhole Genome Sequencing Poster\n\n\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nA Chromosome-level assembly of Thymus vulgaris\n\n\n\n\n\n\n\n\n\n\n\nJun 26, 2023\n\n\nCurro Campuzano Jiménez\n\n\n\n\n\n\n\n\n\n\n\n\nSnakemake pipelines in the High-Throughput Sequencing Center of AU-ENVS\n\n\n\n\n\n\n\n\n\n\n\nJun 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nAn R library to work with HMMER\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/birc-thyme/index.html",
+    "href": "posts/birc-thyme/index.html",
+    "title": "A Chromosome-level assembly of Thymus vulgaris",
+    "section": "",
+    "text": "This semester, I worked with my supervisor Thomas Bataillon as part of my Master’s program at BiRC on a Bioinformatics project. Our goal was to use Pacbio HiFi reads to obtain a chromosome-level assembly of Mediterranean thyme.\n\n\n\nMediterranean thyme (T. vulgaris) Obtained from Herbari virtual del Mediterrani Occidental\n\n\nThe primary objective was to use the genome of a closely related species to improve the contiguity of the highly fragmented de novo assembly. Although further research is required, we achieved promising results. For example, we increased the N50 from 1.87 Mb (n=133) at the contig level to 48.92 Mb (n=8) at the scaffold level. An outline of the pipeline can be found here.\nWorking with plant genomes has been challenging, and I have learned a lot about genome assembly with long reads and plant genomes. Additionally, this project was part of a broader investigation into the genetic and ecological diversity of Mediterranean thyme, a subject that I found fascinating.\nI utilized the GenomeDK cluster at the center for the data analysis pipeline, employing various programs and programming languages, including R, Python, Julia, and Bash.\nAll the code and the slides I used for the project defense are publicly available on GitHub, which you can access at https://currocam.github.io/BiRC-Thyme/"
+  },
+  {
     "objectID": "posts/birc-nj/index.html",
     "href": "posts/birc-nj/index.html",
     "title": "Neighbor-joining in Rust",
@@ -19,20 +33,6 @@
     "title": "An R library to work with HMMER",
     "section": "",
     "text": "HMMERutils is a project I did as part of my internship at the Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI) during 2021-2022, supervised by Coral del Val.\n\n\n\nHMMERutils tidyverse-like logo\n\n\nAs part of my bachelor thesis, I used HMMER to find homologous proteins to Fascin (a protein of clinical interest). Although the main idea was to use the Statistical Coupling Analysis method, I spent most of the time obtaining a curated homologous protein dataset. As a result, we devised HMMERutils: An R library for homologous sequences using the HMMER API, taxonomical annotation, calculate physicochemical properties, and facilitate exploratory analysis of homologous sequence data\nI haven’t found the time to upload it to BioConductor yet (and at this rate, I never will). Still, it was a super enriching experience to learn the guts of an R package, testing, and contiguous integration with GitHub Actions.\nIn this regard, the book R Packages by Hadley Wickham and Jennifer Bryan was the resource I used the most (and it is free). I can’t recommend it highly enough.\n\n\n\nR Packages book cover\n\n\nIf you are interested in the library you can of course visit the vignette: HMMERutils in a nutshell."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Curro Campuzano Jiménez",
-    "section": "",
-    "text": "Hi! I’m Curro Campuzano Jiménez, and this is a Quarto Blog I’ve made to share my journey in academia:=)\n\nAbout me\nI’m currently a PhD student at Svardal Lab. Previously, I worked in the Department of Environmental Science, where I developed reproducible and automatic pipelines to process meta-transcriptomics data. I completed my master’s in bioinformatics at BiRC, where I focused my thesis on the genomic offset framework and the ecological genetics of thyme. I am also an open-source enthusiast: I like to contribute to the software I use.\n\n\nProjects\nIf you are interested, you can learn more about my projects here.\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAssessing reliability of learning Gaussian graphical models from microbial abundances\n\n\n\n\n\n\n\n\n\n\n\nJan 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nNeighbor-joining in Rust\n\n\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nWhole Genome Sequencing Poster\n\n\n\n\n\n\n\n\n\n\n\nOct 18, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nA Chromosome-level assembly of Thymus vulgaris\n\n\n\n\n\n\n\n\n\n\n\nJun 26, 2023\n\n\nCurro Campuzano Jiménez\n\n\n\n\n\n\n\n\n\n\n\n\nSnakemake pipelines in the High-Throughput Sequencing Center of AU-ENVS\n\n\n\n\n\n\n\n\n\n\n\nJun 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nAn R library to work with HMMER\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2023\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/birc-thyme/index.html",
-    "href": "posts/birc-thyme/index.html",
-    "title": "A Chromosome-level assembly of Thymus vulgaris",
-    "section": "",
-    "text": "This semester, I worked with my supervisor Thomas Bataillon as part of my Master’s program at BiRC on a Bioinformatics project. Our goal was to use Pacbio HiFi reads to obtain a chromosome-level assembly of Mediterranean thyme.\n\n\n\nMediterranean thyme (T. vulgaris) Obtained from Herbari virtual del Mediterrani Occidental\n\n\nThe primary objective was to use the genome of a closely related species to improve the contiguity of the highly fragmented de novo assembly. Although further research is required, we achieved promising results. For example, we increased the N50 from 1.87 Mb (n=133) at the contig level to 48.92 Mb (n=8) at the scaffold level. An outline of the pipeline can be found here.\nWorking with plant genomes has been challenging, and I have learned a lot about genome assembly with long reads and plant genomes. Additionally, this project was part of a broader investigation into the genetic and ecological diversity of Mediterranean thyme, a subject that I found fascinating.\nI utilized the GenomeDK cluster at the center for the data analysis pipeline, employing various programs and programming languages, including R, Python, Julia, and Bash.\nAll the code and the slides I used for the project defense are publicly available on GitHub, which you can access at https://currocam.github.io/BiRC-Thyme/"
   },
   {
     "objectID": "posts/ngs/index.html",
