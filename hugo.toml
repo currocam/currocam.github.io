@@ -1,0 +1,27 @@
+baseURL = "https://currocam.github.io/"
+languageCode = "en-us"
+title = "Curro Campuzano"              # the title of your site
+
+copyright = "Copyright © 2025 Curro Campuzano Jiménez. All rights reserved."
+
+theme = "dario"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)']]
+
+[params]
+description = "Academic portfolio of Curro Campuzano Jiménez" # a description of your site that will be used in the meta tags
+[params.author]
+name = "Curro Campuzano Jiménez"     # the author of the site
+email = "campuzanocurro@gmail.com"   # the site author's email address
+twitter = "@currocam"                # the site author's X/Twitter handle
+mainSections = ["research", "posts"]
+math = true

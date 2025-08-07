@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="{{- .Site.Language.LanguageCode -}}" dir="{{- .Site.Language.LanguageDirection | default "ltr" -}}" class="kind-{{ .Kind }}
+{{- if eq .Site.Params.colorScheme "dark" }} dark-mode-on
+{{- else if eq .Site.Params.colorScheme "light" }} dark-mode-off
+{{- end }}">
+
+{{ partial "head.html" . }}
+
+<body>
+{{ partial "header.html" . }}
+
+    <main class="content-wrapper">
+        <article class="content-container">
+
+{{ block "main" . }}{{ end }}
+
+        </article>
+    </main>
+
+{{ partial "footer.html" . }}
+</body>
+
+</html>

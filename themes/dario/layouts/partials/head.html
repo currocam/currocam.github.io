@@ -1,0 +1,71 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {{- with (partial "objects/author.html" .).name }}
+    <meta name="author" content="{{ . }}">
+    {{- end }}
+
+    {{- $page := partial "objects/page.html" . }}
+    <meta name="description" content="{{- $page.description -}}">
+
+    <title>{{ $page.title }}</title>
+
+    {{- if strings.HasSuffix .RelPermalink "/404.html" }}
+    <meta name="robots" content="noindex, nofollow">
+    {{- else }}
+    <link rel="canonical" href="{{ .Permalink }}">
+
+        {{- if not .Site.Params.disableSocialMeta }}
+{{ partial "opengraph.html" . }}
+        {{- end }}
+    {{- end }}
+
+    {{- if not .Site.Params.disableFontPreload }}
+    <link rel="preload" href="{{ "fonts/Newsreader.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ "fonts/Newsreader-italic.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+    {{- end }}
+
+    {{- $defaultCSS := resources.Get "css/default.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $defaultCSS.RelPermalink }}" integrity="{{ $defaultCSS.Data.Integrity }}">
+    {{- with resources.Get "css/custom.css" }}
+        {{- with . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+        {{- end }}
+    {{- end }}
+
+    <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
+    <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+
+    {{- if or (not .Site.Params.colorScheme) (eq .Site.Params.colorScheme "toggle") }}
+    {{- $darkmodeJS := resources.Get "js/darkmode.js" | minify | fingerprint }}
+    <script src="{{ $darkmodeJS.RelPermalink }}" integrity="{{ $darkmodeJS.Data.Integrity }}" defer></script>
+    {{- end }}
+
+    {{- $footnotesJS := resources.Get "js/footnotes.js" | minify | fingerprint }}
+    <script src="{{ $footnotesJS.RelPermalink }}" integrity="{{ $footnotesJS.Data.Integrity }}" defer></script>
+
+    {{- if templates.Exists "partials/nonstdmeta.html" }}
+{{ partial "nonstdmeta.html" . }}
+    {{- end }}
+    <script
+        id="MathJax-script"
+        async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+    ></script>
+    <script>
+        MathJax = {
+            tex: {
+                displayMath: [
+                    ["\\[", "\\]"],
+                    ["$$", "$$"],
+                ], // block
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+            },
+            loader: {
+                load: ["ui/safe"],
+            },
+        };
+    </script>
+
+</head>
