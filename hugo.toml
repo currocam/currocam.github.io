@@ -25,3 +25,7 @@ email = "campuzanocurro@gmail.com"   # the site author's email address
 twitter = "@currocam"                # the site author's X/Twitter handle
 mainSections = ["research", "posts"]
 math = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
