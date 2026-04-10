@@ -17,7 +17,7 @@
   paper: "us-letter",
   author-position: left,
   personal-info-position: left,
-  location: location
+  location: location,
 )
 
 == Profile
@@ -84,13 +84,13 @@ I worked with Irene Luque and Coral del Val in studying protein coevolution usin
 #edu(
   location: "Copenhagen, Denmark",
   dates: dates-helper(start-date: "13 May 2024", end-date: "17 May 2024"),
-  degree: "SLiM Workshop 'European Tour'"
+  degree: "SLiM Workshop 'European Tour'",
 )
 
 #edu(
   location: "Aarhus, Denmark",
   dates: dates-helper(start-date: "23 June 2023", end-date: "27 June 2023"),
-  degree: " PhD course in Next Generation Sequencing Data Analysis"
+  degree: " PhD course in Next Generation Sequencing Data Analysis",
 )
 
 
@@ -101,7 +101,7 @@ Teaching assistant for the following courses:
 - Mathematical Computational Biology (Prof. Hannes Svardal)
 - Omics techniques (Prof. Hannes Svardal)
 
-I reviewed one paper for Genome Biology and Evolution.
+I've reviewed papers for Genome Biology and Evolution and the Journal of Open Source Software.
 
 == Education
 
