@@ -23,7 +23,7 @@ description = "Academic portfolio of Curro Campuzano Jiménez" # a description o
 name = "Curro Campuzano Jiménez"     # the author of the site
 email = "campuzanocurro@gmail.com"   # the site author's email address
 twitter = "@currocam"                # the site author's X/Twitter handle
-mainSections = ["research", "posts"]
+mainSections = ["research", "posts", "teaching"]
 math = true
 
 [caches]
