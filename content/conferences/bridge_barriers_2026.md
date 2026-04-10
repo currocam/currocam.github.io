@@ -1,5 +1,5 @@
 +++
-date = '2026-04-10T18:13:51+02:00'
+date = '2026-04-10T10:00:00+02:00'
 title = 'BridgeBarriers meeting 2026 (Montpellier)'
 +++
 
